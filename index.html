@@ -3,9 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Site vitrine</title>
+    <title>Site vitrine - Optimisé</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="css/styles.css" />
-<script src="js/script.js" defer></script>
+    <script src="js/script.js" defer></script>
   </head>
   <body>
     <div class="topbar">
@@ -33,24 +38,61 @@
       <div class="container">
         <h2>Galerie</h2>
         <div class="grid">
+          
           <div class="card">
-            <a href="img1.html"><img src="img/img1.webp" alt="Image 1" /></a>
+            <a href="img1.html">
+              <picture>
+                <source srcset="img/img1-800.webp 800w, img/img1-400.webp 400w" sizes="(max-width: 600px) 100vw, (max-width: 900px) 50vw, 33vw" type="image/webp">
+                <img src="img/img1-400.webp" alt="Image 1" loading="lazy" width="400" height="300" />
+              </picture>
+            </a>
           </div>
+
           <div class="card">
-            <a href="img2.html"><img src="img/img2.webp" alt="Image 2" /></a>
+            <a href="img2.html">
+              <picture>
+                <source srcset="img/img2-800.webp 800w, img/img2-400.webp 400w" sizes="(max-width: 600px) 100vw, (max-width: 900px) 50vw, 33vw" type="image/webp">
+                <img src="img/img2-400.webp" alt="Image 2" loading="lazy" width="400" height="300" />
+              </picture>
+            </a>
           </div>
+
           <div class="card">
-            <a href="img3.html"><img src="img/img3.webp" alt="Image 3" /></a>
+            <a href="img3.html">
+              <picture>
+                <source srcset="img/img3-800.webp 800w, img/img3-400.webp 400w" sizes="(max-width: 600px) 100vw, (max-width: 900px) 50vw, 33vw" type="image/webp">
+                <img src="img/img3-400.webp" alt="Image 3" loading="lazy" width="400" height="300" />
+              </picture>
+            </a>
           </div>
+
           <div class="card">
-            <a href="img4.html"><img src="img/img4.webp" alt="Image 4" /></a>
+            <a href="img4.html">
+              <picture>
+                <source srcset="img/img4-800.webp 800w, img/img4-400.webp 400w" sizes="(max-width: 600px) 100vw, (max-width: 900px) 50vw, 33vw" type="image/webp">
+                <img src="img/img4-400.webp" alt="Image 4" loading="lazy" width="400" height="300" />
+              </picture>
+            </a>
           </div>
+
           <div class="card">
-            <a href="img5.html"><img src="img/img5.webp" alt="Image 5" /></a>
+            <a href="img5.html">
+              <picture>
+                <source srcset="img/img5-800.webp 800w, img/img5-400.webp 400w" sizes="(max-width: 600px) 100vw, (max-width: 900px) 50vw, 33vw" type="image/webp">
+                <img src="img/img5-400.webp" alt="Image 5" loading="lazy" width="400" height="300" />
+              </picture>
+            </a>
           </div>
+
           <div class="card">
-            <a href="img6.html"><img src="img/img6.webp" alt="Image 6" /></a>
+            <a href="img6.html">
+              <picture>
+                <source srcset="img/img6-800.webp 800w, img/img6-400.webp 400w" sizes="(max-width: 600px) 100vw, (max-width: 900px) 50vw, 33vw" type="image/webp">
+                <img src="img/img6-400.webp" alt="Image 6" loading="lazy" width="400" height="300" />
+              </picture>
+            </a>
           </div>
+
         </div>
       </div>
     </div>
@@ -59,26 +101,10 @@
       <div class="container">
         <h2>Fonctionnalités</h2>
         <div class="features-grid">
-          <div class="feature">
-            <div class="icon">⚡</div>
-            <h3>Design moderne</h3>
-            <p>Couleurs, ombres, grille responsive.</p>
-          </div>
-          <div class="feature">
-            <div class="icon">🧱</div>
-            <h3>Scripts</h3>
-            <p>Intégration de scripts pour effets visuels.</p>
-          </div>
-          <div class="feature">
-            <div class="icon">🖼️</div>
-            <h3>Images</h3>
-            <p>Galerie de visuels variés.</p>
-          </div>
-          <div class="feature">
-            <div class="icon">🔠</div>
-            <h3>Polices</h3>
-            <p>Typographie soignée.</p>
-          </div>
+          <div class="feature"><div class="icon">⚡</div><h3>Performance</h3><p>Optimisé pour la vitesse.</p></div>
+          <div class="feature"><div class="icon">🧱</div><h3>Structure</h3><p>HTML sémantique.</p></div>
+          <div class="feature"><div class="icon">🖼️</div><h3>WebP</h3><p>Images nouvelle génération.</p></div>
+          <div class="feature"><div class="icon">🔠</div><h3>Polices</h3><p>Chargement optimisé.</p></div>
         </div>
       </div>
     </div>
